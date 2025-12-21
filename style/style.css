@@ -14,3 +14,7 @@ ul {
 }
 
 /* BUTTON  for NAV*/
+
+.nav-link:hover {
+  color: lightskyblue;
+}
