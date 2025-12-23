@@ -26,6 +26,8 @@ ul {
   padding-right: 60px;
   padding-top: 100px;
   min-height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .bannerimg {
   background-position: center;
@@ -39,4 +41,25 @@ ul {
 /* HEADER BTN */
 .custombtn {
   background-color: transparent;
+}
+/* 3 ROW */
+.paddingcntr {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.query {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* MEDIA FOR CENTRAL IMG */
+@media screen and (min-width: 2000px) {
+  .query {
+    align-items: start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ducksuper {
+    height: 70%;
+  }
 }
