@@ -18,3 +18,25 @@ ul {
 .nav-link:hover {
   color: lightskyblue;
 }
+
+/* HEADER */
+.bannerbg {
+  background-image: url(../imgs/banner-bg.png);
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 100px;
+  min-height: 550px;
+}
+.bannerimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../imgs/banner-image.png);
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 100px;
+  min-height: 700px;
+}
+/* HEADER BTN */
+.custombtn {
+  background-color: transparent;
+}
