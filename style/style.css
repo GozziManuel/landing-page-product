@@ -66,6 +66,7 @@ ul {
   position: absolute;
   left: 105%;
   top: 0;
+  cursor: pointer;
 }
 .minus,
 .plus {
@@ -76,4 +77,28 @@ ul {
   position: absolute;
   left: 105%;
   top: 16px;
+  cursor: pointer;
+}
+/* carousel */
+.carousel-indicators [data-bs-target] {
+  background-color: gray;
+  height: 17px;
+  width: 17px;
+  border-radius: 100%;
+  position: static;
+}
+.carousel-indicators {
+  position: static;
+  align-items: center;
+}
+.carousel-indicators .active:focus {
+  opacity: 100%;
+  background-color: blue;
+  outline: solid blue;
+  border: solid white;
+}
+.carousel-indicators .active {
+  background-color: blue;
+  outline: solid blue;
+  border: solid white;
 }
