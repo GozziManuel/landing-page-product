@@ -58,15 +58,22 @@ ul {
   justify-content: center;
   align-items: center;
 }
-/* MEDIA FOR CENTRAL IMG */
-@media screen and (min-width: 992px) {
-  .query {
-    align-items: center;
-    height: 500px;
-  }
+
+/* minus and plus */
+
+.minus::after {
+  content: "-";
+  position: absolute;
+  left: 105%;
+  top: 0;
 }
-@media screen and (min-width: 992px) {
-  .ducksuper {
-    height: 70%;
-  }
+.minus,
+.plus {
+  position: relative;
+}
+.plus::after {
+  content: "+";
+  position: absolute;
+  left: 105%;
+  top: 16px;
 }
