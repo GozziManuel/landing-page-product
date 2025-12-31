@@ -64,7 +64,7 @@ ul {
 .minus::after {
   content: "-";
   position: absolute;
-  left: 105%;
+  left: 100%;
   top: 0;
   cursor: pointer;
 }
@@ -75,7 +75,7 @@ ul {
 .plus::after {
   content: "+";
   position: absolute;
-  left: 105%;
+  left: 100%;
   top: 16px;
   cursor: pointer;
 }
@@ -85,20 +85,25 @@ ul {
   height: 17px;
   width: 17px;
   border-radius: 100%;
+  border-top: 0;
+  border-bottom: 0;
   position: static;
 }
 .carousel-indicators {
   position: static;
   align-items: center;
 }
-.carousel-indicators .active:focus {
+
+.carousel-indicators > button:focus {
   opacity: 100%;
   background-color: blue;
   outline: solid blue;
   border: solid white;
 }
-.carousel-indicators .active {
-  background-color: blue;
-  outline: solid blue;
-  border: solid white;
+
+/* INFO SECTIOn */
+
+.borderseparator {
+  border-right: solid 1px rgba(234, 236, 239);
+  border-left: solid 1px rgba(234, 236, 239);
 }
